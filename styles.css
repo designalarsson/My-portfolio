@@ -1,0 +1,341 @@
+html {
+  font-size: 16px;
+  background-color: rgb(234, 234, 234);
+  font-family: futura-pt, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  margin: 0;
+}
+
+p {
+  line-height: 1.5rem;
+  margin: 0;
+}
+
+
+/* Body */
+
+.section {
+  /* margin: 1rem;
+  padding: 0; */
+  max-width: 41rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.work-thumbnail-section {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+.work-thumbnail {
+  background-color: rgb(156, 156, 156);
+  width: 10rem;
+  height: 10rem;
+}
+
+.skills-section {
+  display: flex;
+  flex-flow: wrap;
+}
+
+body {
+  margin: 0;
+}
+
+/* Header */
+
+header {
+  /* background-color: rgb(202, 183, 208); */
+  position: relative;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.al-logo {
+  width: 2.5rem;
+  margin: 1rem;
+}
+
+ul {
+  list-style: none;
+  /* flex-direction: row; */
+  padding: 0;
+  margin: 0;
+}
+
+.header-list {
+  display: block;
+  font-weight: 400;
+  color: black;
+  display: inline-block;
+  margin: 1rem;
+}
+
+.header-list:hover {
+  color: rgb(255, 0, 149);
+  font-style: italic;
+}
+
+
+.symbol-menu {
+  display: none;
+}
+
+.project-content {
+  padding: 1rem 4rem;
+}
+
+.project-name-text {
+  margin-left: 1rem;
+  margin-top: 4rem;
+}
+
+.project-text {
+  margin-bottom: 2rem;
+}
+
+.project-fact-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+ /*  max-width: 41rem; */
+}
+
+.project-fact-list-section {
+  width: 7rem;
+  background-color: rgb(184, 184, 184);
+  font-weight: 400;
+  color: black;
+  display: inline-block;
+}
+
+/* card */
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+/* Picture */
+
+.card-img {
+  /* width: 25rem; */
+  /* object-fit: cover; */
+}
+
+/* card-text */
+
+.card-text-right {
+  background-color: aqua;
+  /* width: 15rem; */
+  padding: 1rem;
+  /* margin-left: 1rem; */
+  box-sizing: border-box;
+}
+
+.card-text-left {
+  /* height: 15rem; */
+  width: 15rem;
+  /* background-color: white; */
+  padding: 1rem;
+  margin-right: 1rem;
+  box-sizing: border-box;
+}
+
+.full-page-picture {
+  display: flex;
+  height: 30rem;
+  margin-bottom: 6rem;
+  background-color: rgb(104, 104, 104);
+  padding: 0;
+}
+
+.full-page-picture-text {
+  color: white;
+  margin: auto;
+  text-align: center;
+  max-width: 41rem;
+}
+
+.skills {
+  display: flex;
+  margin: 1rem;
+}
+
+.skills-logo {
+  margin-right: 0.5rem;
+}
+
+footer {
+  background-color: rgb(184, 184, 184);
+  padding: 1rem;
+  margin-top: 6rem;
+}
+
+/* .contact-section {
+
+} */
+
+.contact-sub-section {
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon {
+  width: 1rem;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+
+
+/* @media screen and (min-width: 768px) {
+  .header-list {
+    display: none;
+    font-weight: 400;
+    color: black;
+    display: inline-block;
+    margin: 1rem;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .header-list {
+    display: none;
+   
+  }
+
+  .symbol-menu {
+    display: block;
+    width: 2rem;
+    display: inline-block;
+    margin: 1rem;
+  }
+
+  .project-content {
+    padding: 1rem 1rem;
+    max-width: 41rem;
+  }
+
+  .project-fact-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .project-fact-list-section {
+    width: 8.5rem;
+    background-color: rgb(184, 184, 184);
+    font-weight: 400;
+    color: black;
+    display: inline-block;
+  }
+
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    max-width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-img {
+    width: 100%;
+  }
+
+  .card-left {
+    flex-direction: column-reverse;
+  }
+
+  .card-text-right {
+    /* width: 25rem; */
+    background-color: aqua;
+    padding: 1rem;
+    margin-left: 0;
+    box-sizing: border-box;
+  }
+
+  .card-text-left {
+    background-color: aqua;
+    width: 25rem;
+    padding: 1rem;
+    margin-right: 0;
+    box-sizing: border-box;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* font-family: futura-pt,sans-serif;
+font-weight: 700;
+font-style: normal;
+
+font-family: futura-pt,sans-serif;
+font-weight: 700;
+font-style: italic;
+
+font-family: futura-pt,sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: futura-pt,sans-serif;
+font-weight: 400;
+font-style: italic;
+
+font-family: futura-pt-bold,sans-serif;
+font-weight: 700;
+font-style: normal;
+
+font-family: futura-pt-bold,sans-serif;
+font-weight: 700;
+font-style: italic;
+
+font-family: futura-pt-condensed,sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: futura-pt-condensed,sans-serif;
+font-weight: 400;
+font-style: italic;
+
+font-family: futura-pt-condensed,sans-serif;
+font-weight: 700;
+font-style: normal;
+
+font-family: futura-pt-condensed,sans-serif;
+font-weight: 700;
+font-style: italic; */
