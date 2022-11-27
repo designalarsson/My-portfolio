@@ -196,13 +196,13 @@ align-self: flex-end;
 }
 
 .project-name-text {
-  margin-left: 1rem;
+  margin-left: 0;
   margin-top: 4rem;
 }
 
 .project-content {
   padding: 0rem;
-  margin: 1rem;
+  margin: 2rem;
 }
 
 /* .project-text {
@@ -405,7 +405,13 @@ footer {
 
   .project-content {
     padding: 0;
+    margin: 1rem;
     max-width: 41rem;
+  }
+
+  .project-name-text {
+    margin-left: 1rem;
+    margin-top: 4rem;
   }
 
   .project-fact-list {
