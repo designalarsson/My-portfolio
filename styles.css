@@ -28,6 +28,7 @@ h1 {
 
 .h1-thin {
   font-weight: 400;
+  margin-top: 0;
 }
 
 .h1-index {
@@ -46,7 +47,7 @@ h1 {
   color: rgb(206, 116, 65);
   text-align: center;
   font-size: 2rem;
-  margin-bottom: 8rem;
+  margin-bottom: 10rem;
 }
 
 h2 {
@@ -301,6 +302,7 @@ align-self: flex-end;
   justify-content: center;
   flex-direction: column;
   flex-grow: 1;
+  padding-right: 8vw;
 }
 
 
@@ -365,13 +367,21 @@ footer {
     display: none;
   }
 
-  h2 {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    font-weight: 700;
-    margin: 0;
-    margin-top: 2rem;
-    /* margin-bottom: 0.5rem; */
+  .h1-thin {
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .h1-index-p {
+    /* color: rgb(228, 132, 77); */
+    color: rgb(206, 116, 65);
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .h2-margin-top {
+    margin-top: 1rem;
   }
 
   .symbol-menu {
@@ -473,11 +483,17 @@ footer {
 }
 
 
-@media screen and (max-width: 431px) {
+@media screen and (max-width: 432px) {
   
+  .project-fact-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
   .project-fact-list-section {
     padding: 1rem;
-    width: 5rem;
+    width: 100%;
     background-color: rgb(184, 184, 184);
     font-weight: 400;
     color: black;
