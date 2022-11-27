@@ -372,6 +372,18 @@ footer {
     margin-top: 0;
     margin-bottom: 0;
   }
+
+  .h1-index {
+    /* color: rgb(255, 244, 241); */
+    /* color: black; */
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 0.9em;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+
   .h1-index-p {
     /* color: rgb(228, 132, 77); */
     color: rgb(206, 116, 65);
