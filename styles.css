@@ -46,7 +46,7 @@ h1 {
   color: rgb(206, 116, 65);
   text-align: center;
   font-size: 2rem;
-  margin-bottom: 10rem;
+  margin-bottom: 8rem;
 }
 
 h2 {
@@ -62,6 +62,7 @@ h2 {
 
 h4 {
   margin: 0;
+  margin-bottom: 1rem;
 }
 
 p {
@@ -300,7 +301,6 @@ align-self: flex-end;
   justify-content: center;
   flex-direction: column;
   flex-grow: 1;
-  gap: 1.5rem;
 }
 
 
@@ -469,5 +469,18 @@ footer {
     margin-top: 0.5rem;
     /* background-color: aqua; */
     margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 431px) {
+  
+  .project-fact-list-section {
+    padding: 1rem;
+    width: 5rem;
+    background-color: rgb(184, 184, 184);
+    font-weight: 400;
+    color: black;
+    display: inline-block;
   }
 }
